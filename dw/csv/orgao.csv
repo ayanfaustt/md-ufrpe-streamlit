@@ -1,0 +1,239 @@
+"id";"codigo_orgao";"nome_orgao";"date_from";"date_to";"version"
+0;999;"     ";"1970-01-01";"2038-01-01";1
+1;22000;"Ministerio da Agricultura e Pecuaria - Unidad";"1970-01-01";"2038-01-01";1
+2;22202;"Empresa Brasileira de Pesquisa Agropecuaria";"1970-01-01";"2038-01-01";1
+3;52121;"Comando do Exercito";"1970-01-01";"2038-01-01";1
+4;25000;"Ministerio da Fazenda - Unidades com vinculo";"1970-01-01";"2038-01-01";1
+5;36211;"Fundacao Nacional de Saude";"1970-01-01";"2038-01-01";1
+6;42207;"Instituto Brasileiro de Museus";"1970-01-01";"2038-01-01";1
+7;20502;"Financiadora de Estudos e Projetos";"1970-01-01";"2038-01-01";1
+8;37202;"Instituto Nacional do Seguro Social";"1970-01-01";"2038-01-01";1
+9;52233;"Amazonia Azul Tecnologia de Defesa S.A.";"1970-01-01";"2038-01-01";1
+10;52131;"Comando da Marinha";"1970-01-01";"2038-01-01";1
+11;52000;"Ministerio da Defesa - Unidades com vinculo d";"1970-01-01";"2038-01-01";1
+12;63000;"Advocacia-Geral da Uniao - Unidades com vincu";"1970-01-01";"2038-01-01";1
+13;62201;"Agencia Nacional de Aviacao Civil";"1970-01-01";"2038-01-01";1
+14;25205;"Fundacao Instituto Brasileiro de Geografia e";"1970-01-01";"2038-01-01";1
+15;52111;"Comando da Aeronautica";"1970-01-01";"2038-01-01";1
+16;22211;"Companhia Nacional de Abastecimento";"1970-01-01";"2038-01-01";1
+17;26422;"Instituto Federal Catarinense";"1970-01-01";"2038-01-01";1
+18;26256;"Centro Federal de Educacao Tecnologica Celso";"1970-01-01";"2038-01-01";1
+19;26261;"Universidade Federal de Itajuba";"1970-01-01";"2038-01-01";1
+20;26235;"Universidade Federal de Goias";"1970-01-01";"2038-01-01";1
+21;26249;"Universidade Federal Rural do Rio de Janeiro";"1970-01-01";"2038-01-01";1
+22;26258;"Universidade Tecnologica Federal do Parana";"1970-01-01";"2038-01-01";1
+23;26238;"Universidade Federal de Minas Gerais";"1970-01-01";"2038-01-01";1
+24;26443;"Empresa Brasileira de Servicos Hospitalares";"1970-01-01";"2038-01-01";1
+25;26417;"Instituto Federal da Paraiba";"1970-01-01";"2038-01-01";1
+26;26239;"Universidade Federal do Para";"1970-01-01";"2038-01-01";1
+27;26252;"Universidade Federal de Campina Grande";"1970-01-01";"2038-01-01";1
+28;26421;"Instituto Federal de Rondonia";"1970-01-01";"2038-01-01";1
+29;26435;"Instituto Federal do Rio Grande do Norte";"1970-01-01";"2038-01-01";1
+30;26411;"Instituto Federal do Sudeste de Minas Gerais";"1970-01-01";"2038-01-01";1
+31;26410;"Instituto Federal do Norte de Minas Gerais";"1970-01-01";"2038-01-01";1
+32;26403;"Instituto Federal do Amazonas";"1970-01-01";"2038-01-01";1
+33;26418;"Instituto Federal de Pernambuco";"1970-01-01";"2038-01-01";1
+34;26424;"Instituto Federal do Tocantins";"1970-01-01";"2038-01-01";1
+35;26405;"Instituto Federal do Ceara";"1970-01-01";"2038-01-01";1
+36;46000;"Ministerio da Gestao e da Inovacao em Servico";"1970-01-01";"2038-01-01";1
+37;20701;"Instituto Brasileiro do Meio Ambiente e dos R";"1970-01-01";"2038-01-01";1
+38;30202;"Fundacao Nacional do Indio";"1970-01-01";"2038-01-01";1
+39;30802;"Policia Rodoviaria Federal";"1970-01-01";"2038-01-01";1
+40;30108;"Policia Federal";"1970-01-01";"2038-01-01";1
+41;30907;"Fundo Penitenciario Nacional";"1970-01-01";"2038-01-01";1
+42;24000;"Ministerio da Ciencia, Tecnologia e Inovacao";"1970-01-01";"2038-01-01";1
+43;36000;"Ministerio da Saude - Unidades com vinculo di";"1970-01-01";"2038-01-01";1
+44;36213;"Agencia Nacional de Saude Suplementar";"1970-01-01";"2038-01-01";1
+45;36201;"Fundacao Oswaldo Cruz";"1970-01-01";"2038-01-01";1
+46;37201;"Fundacao Jorge Duprat Figueiredo, de Seguranc";"1970-01-01";"2038-01-01";1
+47;20411;"Instituto do Patrimonio Historico e Artistico";"1970-01-01";"2038-01-01";1
+48;20408;"Fundacao Cultural Palmares";"1970-01-01";"2038-01-01";1
+49;38901;"Fundo de Amparo ao Trabalhador";"1970-01-01";"2038-01-01";1
+50;39252;"Departamento Nacional de Infraestrutura de Tr";"1970-01-01";"2038-01-01";1
+51;40000;"Ministerio do Trabalho e Emprego - Unidades c";"1970-01-01";"2038-01-01";1
+52;41231;"Agencial Nacional de Telecomunicacoes";"1970-01-01";"2038-01-01";1
+53;53203;"Superintendencia do Desenvolvimento do Nordes";"1970-01-01";"2038-01-01";1
+54;55000;"Ministerio do Desenvolvimento e Assistencia S";"1970-01-01";"2038-01-01";1
+55;26230;"Fundacao Universidade Federal do Vale do Sao";"1970-01-01";"2038-01-01";1
+56;26201;"Colegio Pedro II";"1970-01-01";"2038-01-01";1
+57;26413;"Instituto Federal do Triangulo Mineiro";"1970-01-01";"2038-01-01";1
+58;26433;"Instituto Federal do Rio de Janeiro";"1970-01-01";"2038-01-01";1
+59;26430;"Instituto Federal do Sertao de Pernambuco";"1970-01-01";"2038-01-01";1
+60;91081;"FURNAS-CENTRAIS ELETRICAS S.A.";"1970-01-01";"2038-01-01";1
+61;26236;"Universidade Federal Fluminense";"1970-01-01";"2038-01-01";1
+62;26247;"Universidade Federal de Santa Maria";"1970-01-01";"2038-01-01";1
+63;26277;"Universidade Federal de Ouro Preto";"1970-01-01";"2038-01-01";1
+64;26416;"Instituto Federal do Para";"1970-01-01";"2038-01-01";1
+65;38000;"Ministerio do Trabalho e Emprego - Unidades c";"1970-01-01";"2038-01-01";1
+66;39250;"Agencia Nacional de Transportes Terrestres";"1970-01-01";"2038-01-01";1
+67;52211;"Caixa de Financiamento Imobiliario da Aeronau";"1970-01-01";"2038-01-01";1
+68;26428;"Instituto Federal de Brasilia";"1970-01-01";"2038-01-01";1
+69;26243;"Universidade Federal do Rio Grande do Norte";"1970-01-01";"2038-01-01";1
+70;26250;"Universidade Federal de Roraima";"1970-01-01";"2038-01-01";1
+71;26420;"Instituto Federal Farroupilha";"1970-01-01";"2038-01-01";1
+72;26431;"Instituto Federal do Piaui";"1970-01-01";"2038-01-01";1
+73;26408;"Instituto Federal do Maranhao";"1970-01-01";"2038-01-01";1
+74;32263;"Departamento Nacional de Producao Mineral";"1970-01-01";"2038-01-01";1
+75;29208;"Companhia de Pesquisa de Recursos Minerais";"1970-01-01";"2038-01-01";1
+76;26245;"Universidade Federal do Rio de Janeiro";"1970-01-01";"2038-01-01";1
+77;26280;"Fundacao Universidade Federal de Sao Carlos";"1970-01-01";"2038-01-01";1
+78;26432;"Instituto Federal do Parana";"1970-01-01";"2038-01-01";1
+79;24209;"Centro Nacional de Tecnologia Eletronica Avan";"1970-01-01";"2038-01-01";1
+80;44207;"Instituto Chico Mendes de Conservacao da Biod";"1970-01-01";"2038-01-01";1
+81;26406;"Instituto Federal do Espirito Santo";"1970-01-01";"2038-01-01";1
+82;22201;"Instituto Nacional de Colonizacao e Reforma A";"1970-01-01";"2038-01-01";1
+83;41000;"MINISTERIO DAS COMUNICACOES";"1970-01-01";"2038-01-01";1
+84;26000;"Ministerio da Educacao - Unidades com vinculo";"1970-01-01";"2038-01-01";1
+85;26409;"Instituto Federal de Minas Gerais";"1970-01-01";"2038-01-01";1
+86;25201;"BANCO CENTRAL DO BRASIL-ORC.FISCAL/SEG.SOCIAL";"1970-01-01";"2038-01-01";1
+87;20301;"Comissao Nacional de Energia Nuclear";"1970-01-01";"2038-01-01";1
+88;26434;"Instituto Federal Fluminense";"1970-01-01";"2038-01-01";1
+89;91081;"Empresas de Energia";"1970-01-01";"2038-01-01";1
+90;20116;"Fundo de Imprensa Nacional";"1970-01-01";"2038-01-01";1
+91;53207;"Superintendencia de Desenvolvimento do Centro";"1970-01-01";"2038-01-01";1
+92;26291;"Fundacao Coordenacao de Aperfeicoamento de Pe";"1970-01-01";"2038-01-01";1
+93;26412;"Instituto Federal do Sul de Minas Gerais";"1970-01-01";"2038-01-01";1
+94;26407;"Instituto Federal Goiano";"1970-01-01";"2038-01-01";1
+95;26415;"Instituto Federal do Mato Grosso do Sul";"1970-01-01";"2038-01-01";1
+96;52221;"Industria de Material Belico do Brasil";"1970-01-01";"2038-01-01";1
+97;22203;"Companhia de Desenvolvimento dos Vales do Sao";"1970-01-01";"2038-01-01";1
+98;35000;"Ministerio das Relacoes Exteriores - Unidades";"1970-01-01";"2038-01-01";1
+99;30211;"Conselho Administrativo de Defesa Economica";"1970-01-01";"2038-01-01";1
+100;26404;"Instituto Federal Baiano";"1970-01-01";"2038-01-01";1
+101;26448;"Universidade Federal do Sul e Sudeste do Para";"1970-01-01";"2038-01-01";1
+102;81000;"Ministerio dos Direitos Humanos e Cidadania -";"1970-01-01";"2038-01-01";1
+103;26402;"Instituto Federal de Alagoas";"1970-01-01";"2038-01-01";1
+104;20404;"Fundacao Biblioteca Nacional";"1970-01-01";"2038-01-01";1
+105;26423;"Instituto Federal de Sergipe";"1970-01-01";"2038-01-01";1
+106;29214;"Companhia Brasileira de Trens Urbanos";"1970-01-01";"2038-01-01";1
+107;42000;"Ministerio da Cultura - Unidades com vinculo";"1970-01-01";"2038-01-01";1
+108;44208;"Servico Florestal Brasileiro";"1970-01-01";"2038-01-01";1
+109;26298;"Fundo Nacional de Desenvolvimento da Educacao";"1970-01-01";"2038-01-01";1
+110;26447;"Universidade Federal do Oeste da Bahia";"1970-01-01";"2038-01-01";1
+111;57280;"Empresa de Processamento de Dados da Previden";"1970-01-01";"2038-01-01";1
+112;37000;"Controladoria-Geral da Uniao - Unidades com v";"1970-01-01";"2038-01-01";1
+113;26441;"Universidade Federal do Oeste do Para";"1970-01-01";"2038-01-01";1
+114;26231;"Universidade Federal de Alagoas";"1970-01-01";"2038-01-01";1
+115;26234;"Universidade Federal do Espirito Santo";"1970-01-01";"2038-01-01";1
+116;25203;"Comissao de Valores Mobiliarios";"1970-01-01";"2038-01-01";1
+117;26254;"Universidade Federal do Triangulo Mineiro";"1970-01-01";"2038-01-01";1
+118;52231;"Empresa Gerencial de Projetos Navais";"1970-01-01";"2038-01-01";1
+119;54000;"Ministerio do Turismo - Unidades com vinculo";"1970-01-01";"2038-01-01";1
+120;39000;"Ministerio dos Transportes - Unidades com vin";"1970-01-01";"2038-01-01";1
+121;20101;"Presidencia da Republica";"1970-01-01";"2038-01-01";1
+122;30204;"Instituto Nacional da Propriedade Industrial";"1970-01-01";"2038-01-01";1
+123;22204;"Departamento Nacional de Obras Contra as Seca";"1970-01-01";"2038-01-01";1
+124;30000;"Ministerio da Justica e Seguranca Publica - U";"1970-01-01";"2038-01-01";1
+125;20203;"Agencia Nacional do Cinema";"1970-01-01";"2038-01-01";1
+126;27201;"Fundacao Habitacional do Exercito";"1970-01-01";"2038-01-01";1
+127;26232;"Universidade Federal da Bahia";"1970-01-01";"2038-01-01";1
+128;36212;"Agencia Nacional de Vigilancia Sanitaria";"1970-01-01";"2038-01-01";1
+129;32210;"Agencia Nacional de Energia Eletrica";"1970-01-01";"2038-01-01";1
+130;44205;"Agencia Nacional de Aguas";"1970-01-01";"2038-01-01";1
+131;26275;"Fundacao Universidade Federal do Acre";"1970-01-01";"2038-01-01";1
+132;32314;"Empresa de Pesquisa Energetica";"1970-01-01";"2038-01-01";1
+133;26442;"Universidade da Integracao Internacional da L";"1970-01-01";"2038-01-01";1
+134;26248;"Universidade Federal Rural de Pernambuco";"1970-01-01";"2038-01-01";1
+135;26449;"Universidade Federal do Cariri";"1970-01-01";"2038-01-01";1
+136;26425;"Instituto Federal do Acre";"1970-01-01";"2038-01-01";1
+137;26436;"Instituto Federal Sul-rio-grandense";"1970-01-01";"2038-01-01";1
+138;38000;"MINISTERIO DO TRABALHO E EMPREGO";"1970-01-01";"2038-01-01";1
+139;26255;"Universidade Federal dos Vales do Jequitinhon";"1970-01-01";"2038-01-01";1
+140;26286;"Fundacao Universidade Federal do Amapa";"1970-01-01";"2038-01-01";1
+141;26271;"Fundacao Universidade de Brasilia";"1970-01-01";"2038-01-01";1
+142;25208;"Superintendencia de Seguros Privados";"1970-01-01";"2038-01-01";1
+143;26268;"Fundacao Universidade Federal de Rondonia";"1970-01-01";"2038-01-01";1
+144;26437;"Instituto Federal de Roraima";"1970-01-01";"2038-01-01";1
+145;20415;"Empresa Brasil de Comunicacao";"1970-01-01";"2038-01-01";1
+146;26279;"Fundacao Universidade Federal do Piaui";"1970-01-01";"2038-01-01";1
+147;26351;"Universidade Federal do Reconcavo da Bahia";"1970-01-01";"2038-01-01";1
+148;26253;"Universidade Federal Rural da Amazonia";"1970-01-01";"2038-01-01";1
+149;26440;"Universidade Federal da Fronteira Sul";"1970-01-01";"2038-01-01";1
+150;22500;"Companhia de Entrepostos e Armazens Gerais de";"1970-01-01";"2038-01-01";1
+151;26233;"Universidade Federal do Ceara";"1970-01-01";"2038-01-01";1
+152;26267;"Universidade Federal da Integracao Latino-Ame";"1970-01-01";"2038-01-01";1
+153;26263;"Universidade Federal de Lavras";"1970-01-01";"2038-01-01";1
+154;26270;"Fundacao Universidade do Amazonas";"1970-01-01";"2038-01-01";1
+155;26278;"Fundacao Universidade Federal de Pelotas";"1970-01-01";"2038-01-01";1
+156;45282;"Banco Nacional de Desenvolvimento Economico e";"1970-01-01";"2038-01-01";1
+157;26260;"Universidade Federal de Alfenas";"1970-01-01";"2038-01-01";1
+158;26240;"Universidade Federal da Paraiba";"1970-01-01";"2038-01-01";1
+159;32205;"Agencia Nacional do Petroleo, Gas Natural e B";"1970-01-01";"2038-01-01";1
+160;26292;"Fundacao Joaquim Nabuco";"1970-01-01";"2038-01-01";1
+161;26272;"Fundacao Universidade do Maranhao";"1970-01-01";"2038-01-01";1
+162;26264;"Universidade Federal Rural do Semi-Arido";"1970-01-01";"2038-01-01";1
+163;26276;"Fundacao Universidade Federal do Mato Grosso";"1970-01-01";"2038-01-01";1
+164;26419;"Instituto Federal do Rio Grande do Sul";"1970-01-01";"2038-01-01";1
+165;26285;"Fundacao Universidade Federal de Sao Joao Del";"1970-01-01";"2038-01-01";1
+166;26266;"Fundacao Universidade Federal do Pampa";"1970-01-01";"2038-01-01";1
+167;25282;"Banco do Nordeste do Brasil";"1970-01-01";"2038-01-01";1
+168;26262;"Universidade Federal de Sao Paulo";"1970-01-01";"2038-01-01";1
+169;26283;"Fundacao Universidade Federal do Mato Grosso";"1970-01-01";"2038-01-01";1
+170;26281;"Fundacao Universidade Federal de Sergipe";"1970-01-01";"2038-01-01";1
+171;26438;"Instituto Federal de Santa Catarina";"1970-01-01";"2038-01-01";1
+172;25201;"Banco Central do Brasil - Orcamento Fiscal e";"1970-01-01";"2038-01-01";1
+173;26273;"Universidade Federal do Rio Grande";"1970-01-01";"2038-01-01";1
+174;3000;"Tribunal de Contas da Uniao - Unidades com vi";"1970-01-01";"2038-01-01";1
+175;26241;"Universidade Federal do Parana";"1970-01-01";"2038-01-01";1
+176;26274;"Fundacao Universidade Federal de Uberlandia";"1970-01-01";"2038-01-01";1
+177;26242;"Universidade Federal de Pernambuco";"1970-01-01";"2038-01-01";1
+178;26244;"Universidade Federal do Rio Grande do Sul";"1970-01-01";"2038-01-01";1
+179;26282;"Universidade Federal de Vicosa";"1970-01-01";"2038-01-01";1
+180;26246;"Universidade Federal de Santa Catarina";"1970-01-01";"2038-01-01";1
+181;26269;"Universidade Federal do Estado do Rio de Jane";"1970-01-01";"2038-01-01";1
+182;25207;"Servico Federal de Processamento de Dados";"1970-01-01";"2038-01-01";1
+183;26439;"Instituto Federal de Sao Paulo";"1970-01-01";"2038-01-01";1
+184;38850;"FUND.DE PREVID.COMPL.SERV.PUB.FED.PODER EXEC.";"1970-01-01";"2038-01-01";1
+185;36000;"MINISTERIO DA SAUDE";"1970-01-01";"2038-01-01";1
+186;60000;"Gabinete da Vice-Presidencia da Republica";"1970-01-01";"2038-01-01";1
+187;26352;"Fundacao Universidade Federal do ABC";"1970-01-01";"2038-01-01";1
+188;26426;"Instituto Federal do Amapa";"1970-01-01";"2038-01-01";1
+189;26414;"Instituto Federal do Mato Grosso";"1970-01-01";"2038-01-01";1
+190;25301;"Empresa Gestora de Ativos";"1970-01-01";"2038-01-01";1
+191;35201;"Fundacao Alexandre de Gusmao";"1970-01-01";"2038-01-01";1
+192;32396;"Agencia Nacional de Mineracao";"1970-01-01";"2038-01-01";1
+193;20403;"Fundacao Casa de Rui Barbosa";"1970-01-01";"2038-01-01";1
+194;53000;"Ministerio da Integracao e do Desenvolvimento";"1970-01-01";"2038-01-01";1
+195;53202;"Superintendencia do Desenvolvimento da Amazon";"1970-01-01";"2038-01-01";1
+196;68201;"Agencia Nacional de Transportes Aquaviarios";"1970-01-01";"2038-01-01";1
+197;26429;"Instituto Federal de Educacao, Ciencia e Tecn";"1970-01-01";"2038-01-01";1
+198;20402;"Agencia Espacial Brasileira";"1970-01-01";"2038-01-01";1
+199;26427;"Instituto Federal da Bahia";"1970-01-01";"2038-01-01";1
+200;39253;"Empresa de Planejamento e Logistica S.A.";"1970-01-01";"2038-01-01";1
+201;26350;"Fundacao Universidade Federal da Grande Doura";"1970-01-01";"2038-01-01";1
+202;52222;"Fundacao Osorio";"1970-01-01";"2038-01-01";1
+203;26237;"Universidade Federal de Juiz de Fora";"1970-01-01";"2038-01-01";1
+204;30911;"Fundo Nacional de Seguranca Publica";"1970-01-01";"2038-01-01";1
+205;24208;"Instituto Nacional de Tecnologia da Informaca";"1970-01-01";"2038-01-01";1
+206;26251;"Fundacao Universidade Federal do Tocantins";"1970-01-01";"2038-01-01";1
+207;44206;"Instituto de Pesquisas Jardim Botanico do Rio";"1970-01-01";"2038-01-01";1
+208;26257;"Centro Federal de Educacao Tecnologica de Min";"1970-01-01";"2038-01-01";1
+209;26290;"Instituto Nacional de Estudos e Pesquisas Edu";"1970-01-01";"2038-01-01";1
+210;20501;"Conselho Nacional de Desenvolvimento Cientifi";"1970-01-01";"2038-01-01";1
+211;25000;"MINISTERIO DA ECONOMIA";"1970-01-01";"2038-01-01";1
+212;20202;"Fundacao Escola Nacional de Administracao Pub";"1970-01-01";"2038-01-01";1
+213;30203;"Instituto Nacional de Metrologia, Qualidade e";"1970-01-01";"2038-01-01";1
+214;32000;"Ministerio de Minas e Energia - Unidades com";"1970-01-01";"2038-01-01";1
+215;26284;"Fundacao Universidade Federal de Ciencias da";"1970-01-01";"2038-01-01";1
+216;61201;"Instituto de Pesquisa Economica Aplicada";"1970-01-01";"2038-01-01";1
+217;26450;"Universidade Federal do Sul da Bahia";"1970-01-01";"2038-01-01";1
+218;20412;"Fundacao Nacional de Artes";"1970-01-01";"2038-01-01";1
+219;20604;"Instituto Brasileiro de Turismo";"1970-01-01";"2038-01-01";1
+220;33206;"Superintendencia Nacional de Previdencia Comp";"1970-01-01";"2038-01-01";1
+221;29209;"VALEC Engenharia, Construcoes e Ferrovias S.A";"1970-01-01";"2038-01-01";1
+222;38961;"CONSELHO REG.DE FIS. E TERAPIA OCUPACIONAL-SP";"1970-01-01";"2038-01-01";1
+223;20603;"Superintendencia da Zona Franca de Manaus";"1970-01-01";"2038-01-01";1
+224;38885;"CONSELHO FEDERAL FISIOT.TERAPIA OCUPACIONAL";"1970-01-01";"2038-01-01";1
+225;31280;"Caixa de Construcoes de Casas para o Pessoal";"1970-01-01";"2038-01-01";1
+226;38989;"CONSELHO REGIONAL DE NUTRICIONISTAS 8A - PR";"1970-01-01";"2038-01-01";1
+227;44000;"Ministerio do Meio Ambiente e Mudanca do Clim";"1970-01-01";"2038-01-01";1
+228;39817;"Companhia Docas do Espirito Santo";"1970-01-01";"2038-01-01";1
+229;25211;"Casa da Moeda do Brasil";"1970-01-01";"2038-01-01";1
+230;32000;"MINISTERIO DE MINAS E ENERGIA";"1970-01-01";"2038-01-01";1
+231;26452;"Universidade Federal de Catalao";"1970-01-01";"2038-01-01";1
+232;26453;"Universidade Federal de Jatai";"1970-01-01";"2038-01-01";1
+233;28000;"Ministerio do Desenvolvimento, Industria, Com";"1970-01-01";"2038-01-01";1
+234;20303;"Industrias Nucleares do Brasil";"1970-01-01";"2038-01-01";1
+235;38508;"CONSELHO REGIONAL DE CONTABILIDADE-MA";"1970-01-01";"2038-01-01";1
+236;26454;"Universidade Federal de Rondonopolis";"1970-01-01";"2038-01-01";1
+237;26456;"Universidade Federal do Agreste de Pernambuco";"1970-01-01";"2038-01-01";1

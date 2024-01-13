@@ -7,7 +7,7 @@ def main():
         page_title="Home",
         page_icon="🏠"
         )
-    st.title("Data Warehouse Licitação")
+    st.title("🏠 Data Warehouse Licitação")
 
 if __name__ == '__main__':
     main()
