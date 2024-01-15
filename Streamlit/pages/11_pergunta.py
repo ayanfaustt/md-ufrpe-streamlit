@@ -37,11 +37,10 @@ def main():
   coastForCitie = selectedFate.groupby('dim_localizacao_id')['valor_licitacao'].sum().sort_values(ascending=False)
 
   barPerPage = 5
-  selectedPage = 1
 
   pageNumbers = len(coastForCitie) // barPerPage + (len(coastForCitie) % barPerPage > 0)
 
-  page = st.number_input("select page", 1, pageNumbers)
+  selectedPage = st.number_input("select page", 1, pageNumbers)
   start = (selectedPage - 1) * barPerPage
   end = start + barPerPage
 
