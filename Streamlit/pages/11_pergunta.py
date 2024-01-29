@@ -34,7 +34,7 @@ def main():
 
 
   cities = municipios[municipios['id'].isin(selectedFate['dim_localizacao_id'])]
-  coastForCitie = selectedFate.groupby('dim_localizacao_id')['valor_licitacao'].sum().sort_values(ascending=False)
+  coastForCitie = selectedFate.groupby('dim_localizacao_id')['valor_licitacao'].sum().sort_values(ascending=True)
 
   barPerPage = 5
 
