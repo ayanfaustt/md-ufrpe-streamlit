@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 import os
 
 st.set_page_config(
-  page_title="Test"
+  page_title="Pergunta 2"
 )
 
 
@@ -36,13 +36,12 @@ def main():
 
   result = factValAndLoc2.groupby('uf')['valor'].sum().reset_index()
 
-  st.dataframe(result)
-  st.write(locId)
-  st.write(facts.count())
+  fig = px.scatter(result, x='uf', y='valor', size='valor', hover_name='uf',
+                 title=f'Valor total gasto em licitação por Estado para o órgão: {orgao}',
+                 labels={'uf': 'Estado', 'valor': 'Valor Total'},
+                 size_max=50)
 
-
-  st.write(orgao)
-  st.write(orgaoId)
+  st.plotly_chart(fig)
 
 
 
