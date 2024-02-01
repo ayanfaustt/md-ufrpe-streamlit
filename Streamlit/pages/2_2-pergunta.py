@@ -27,6 +27,31 @@ def main():
   orgaoId = orgaos.loc[orgaos['nome_orgao'] == orgao]['id'].values[0]
 
   facts = fatos.loc[fatos['dim_orgao_id'] == orgaoId]
+
+  st.write("Escolha opções de filtros: ")
+
+  dateEnabled = st.checkbox('Habilitar datas ? (Selecione um intervalo entre 01/01/2019-31/12/2020)')
+
+  # Filtro por data
+  initialDate = st.date_input("Data inicial")
+  finalDate = st.date_input("Data final")
+  initialDateId = data.loc[data['dia_data'] == initialDate.isoformat()]
+  finalDateId = data.loc[data['dia_data'] == finalDate.isoformat()]
+
+  if(dateEnabled == True):
+    facts = fatos.loc[
+      (fatos['dim_data_abertura_id'] >= initialDateId['id'].values[0]) &
+      (fatos['dim_data_abertura_id'] <= finalDateId['id'].values[0])
+    ]
+
+  # Filtro por estado
+  stateList = loc['uf'].unique().tolist()
+  selectedStates = st.multiselect('Escolha os Estados que deseja filtrar:', stateList)
+
+  if(len(selectedStates) > 0):
+    stateListId = loc[loc['uf'].isin(selectedStates)]['id'].tolist()
+    facts = facts[facts['dim_localizacao_id'].isin(stateListId)]
+
   factValAndLoc = pd.DataFrame({
     'id': facts['dim_localizacao_id'], 
     'valor': facts['valor_licitacao']
