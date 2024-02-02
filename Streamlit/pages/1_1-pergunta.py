@@ -24,12 +24,13 @@ def main():
   finalDate = st.date_input("Data final")
   st.write('\n')
 
-  stateList = municipios['uf'].unique().tolist()
+  stateList = municipios[municipios['uf'] != '-3']['uf'].unique().tolist()
   selectedStates = st.multiselect('Escolha os Estados que deseja filtrar:', stateList)
 
   initialDateId = data.loc[data['dia_data'] == initialDate.isoformat()]
   finalDateId = data.loc[data['dia_data'] == finalDate.isoformat()]
 
+  fatos = fatos[fatos['dim_localizacao_id'] != 838]
 
   selectedFate = fatos.loc[
     (fatos['dim_data_abertura_id'] >= initialDateId['id'].values[0]) &
