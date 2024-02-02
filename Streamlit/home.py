@@ -9,6 +9,7 @@ def main():
         )
     st.title("🏠 Data Warehouse Licitação")
 
+    st.subheader("👨‍👩‍👦 Grupo 03 - Integrantes: 👱‍♂️ Ayan Faustt, 👱‍♂️ Diego Diniz, 👱‍♂️ Diogo de Souza, 👩 Querem Hapuque, 👱‍♂️ Lucas lima")
 
     st.write("Este projeto tem como objetivo mostrat informações sobre as licitações realizadas no período de 01/01/2019 - 31/12/2020")
 
