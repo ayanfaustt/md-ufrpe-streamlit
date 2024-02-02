@@ -14,42 +14,57 @@ st.set_page_config(
 def main():
   fatos = pd.read_csv("dw/csv/fato.csv", sep=';')
   orgaos = pd.read_csv("dw/csv/orgao.csv", sep=';')
+  data = pd.read_csv("dw/csv/data.csv", sep=';', parse_dates=['dia_data'])
   municipios = pd.read_csv("dw/csv/localizacao.csv", sep=';')
   
-  st.markdown("# Segunda pergunta:")
-  st.markdown("## Dado um município, quais as unidades gestora são responsáveis pela maior quantidade de licitações?")
+  st.markdown("# Terceira pergunta:")
+  st.markdown("## Qual a média dos valores das licitações ao longo do ano levando em cosideração os Estados ?")
   st.write("\n")
 
-  municipio_selecionado = st.selectbox ("Selecione um município:", municipios.municipio)
+  stateList = municipios['uf'].unique().tolist()
+  orgaosList = orgaos['nome_orgao'].unique().tolist()
 
-  #st.write("Você selecionou:", municipio_selecionado)
-
-  mapa_municipios_ids = dict(zip(municipios['municipio'], municipios['id']))
-
-  id_municipio = mapa_municipios_ids[municipio_selecionado]
-  #st.write(f"ID do município {municipio_selecionado}: {id_municipio}")
-
-  linhas_filtradas = fatos[fatos['dim_localizacao_id'] == id_municipio]
-
-  nome_dos_ngc = orgaos[['nome_orgao', 'id']]
-  dados_com_nomes_orgaos = pd.merge(nome_dos_ngc, linhas_filtradas, left_on='id', right_on='dim_orgao_id')
-
-  contagem_por_orgao = dados_com_nomes_orgaos['nome_orgao'].value_counts()
   
-  st.write("Contagem de licitações por orgao:")
+  selectYear = st.selectbox ("Selecione o ano", [2019, 2020])
 
-  y_orgao = nome_dos_ngc['nome_orgao'].iloc[1:]
-  fig = go.Figure(go.Bar(
-              x= contagem_por_orgao,
-              y= y_orgao,
-              orientation='h'))
+  selectedStates = st.multiselect('Filtre por Estado', stateList)
+  orgao = st.multiselect('Filtre por Órgão', orgaosList)
+  rangeDate = data.loc[data['ano'] == selectYear]
+
+  fatos = fatos[fatos['dim_localizacao_id'] != 838]
+
+  merged_df = pd.merge(rangeDate, fatos, left_on='id', right_on='dim_data_abertura_id')
+
+  # filtro por estado
+  if(len(selectedStates) > 0):
+    stateListId = municipios[municipios['uf'].isin(selectedStates)]['id'].tolist()
+    merged_df = merged_df[merged_df['dim_localizacao_id'].isin(stateListId)]
+  
+  # filtro por orgão
+  if(len(orgao) > 0):
+    st.write(orgao)
+    orgaoId = orgaos.loc[orgaos['nome_orgao'].isin(orgao)]['id'].values
+    merged_df = merged_df.loc[merged_df['dim_orgao_id'].isin(orgaoId)]
+
+  # average_by_month = merged_df.groupby(merged_df['dia_data'].dt.month)['valor_licitacao'].mean().reset_index()
+
+  merged_df = pd.merge(merged_df, municipios, left_on='dim_localizacao_id', right_on='id', suffixes=('', '_municipio'))
+  
+  average_by_month_location = merged_df.groupby([merged_df['dia_data'].dt.month, 'uf'])['valor_licitacao'].mean().reset_index()
+
+  # average_by_month_location = merged_df.groupby([merged_df['dia_data'].dt.month, 'uf'])['valor_licitacao'].mean().reset_index()
+  average_by_month_location['dia_data'] = average_by_month_location['dia_data'].apply(lambda x: pd.to_datetime(str(x), format='%m').strftime('%B'))
+
+
+  fig = px.line(average_by_month_location, x='dia_data', y='valor_licitacao', color='uf',
+                  labels={'valor_licitacao': 'Média dos Valores de Licitação'},
+                  title='Média dos Valores de Licitação por Mês e por Estado')
+    
+    # Adiciona o formato de data ao eixo x
+  fig.update_xaxes(type='category')
+  
+  # Exibe o gráfico
   st.plotly_chart(fig)
-
-  #st.write(contagem_por_orgao)
-
-  st.write("Todas as licitações realizadas no municipio:")
-  st.write(dados_com_nomes_orgaos)
-
 
 if __name__ == '__main__':
   main()
