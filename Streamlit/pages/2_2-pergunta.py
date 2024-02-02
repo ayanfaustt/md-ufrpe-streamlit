@@ -26,6 +26,8 @@ def main():
 
   orgaoId = orgaos.loc[orgaos['nome_orgao'] == orgao]['id'].values[0]
 
+  fatos = fatos[fatos['dim_localizacao_id'] != 838]
+
   facts = fatos.loc[fatos['dim_orgao_id'] == orgaoId]
 
   st.write("Escolha opções de filtros: ")
@@ -45,7 +47,7 @@ def main():
     ]
 
   # Filtro por estado
-  stateList = loc['uf'].unique().tolist()
+  stateList = loc[loc['uf'] != '-3']['uf'].unique().tolist()
   selectedStates = st.multiselect('Escolha os Estados que deseja filtrar:', stateList)
 
   if(len(selectedStates) > 0):
