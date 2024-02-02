@@ -9,9 +9,14 @@ def main():
         )
     st.title("🏠 Data Warehouse Licitação")
 
-    st.subheader("👨‍👩‍👦 Grupo 03 - Integrantes: 👱‍♂️ Ayan Faustt, 👱‍♂️ Diego Diniz, 👱‍♂️ Diogo de Souza, 👩 Querem Hapuque, 👱‍♂️ Lucas lima")
+    st.write("Este projeto tem como objetivo mostrar informações sobre as licitações realizadas no período de 01/01/2019 - 31/12/2020")
 
-    st.write("Este projeto tem como objetivo mostrat informações sobre as licitações realizadas no período de 01/01/2019 - 31/12/2020")
+    st.subheader("Grupo 03 - Integrantes:")
+    st.write("- Ayan Faustt")
+    st.write("- Diego Diniz")
+    st.write("- Diogo de Souza")
+    st.write("- Querem Hapuque")
+    st.write("- Lucas Lima")
 
 if __name__ == '__main__':
     main()

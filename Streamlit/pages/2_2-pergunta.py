@@ -63,15 +63,12 @@ def main():
 
   result = factValAndLoc2.groupby('uf')['valor'].sum().reset_index()
 
-  fig = px.scatter(result, x='uf', y='valor', size='valor', hover_name='uf',
+  fig = px.area(result, x='uf', y='valor', hover_name='uf',
                  title=f'Valor total gasto em licitação por Estado para o órgão: {orgao}',
                  labels={'uf': 'Estado', 'valor': 'Valor Total'},
-                 size_max=50)
-
+                 )
+  
   st.plotly_chart(fig)
-
-
-
 
 if __name__ == '__main__':
   main()

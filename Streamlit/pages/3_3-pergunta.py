@@ -18,7 +18,7 @@ def main():
   municipios = pd.read_csv("dw/csv/localizacao.csv", sep=';')
   
   st.markdown("# Terceira pergunta:")
-  st.markdown("## Qual a média dos valores das licitações ao longo do ano levando em cosideração os Estados ?")
+  st.markdown("## Qual a média dos valores das licitações ao longo do ano levando em consideração os Estados ?")
   st.write("\n")
 
   stateList = municipios[municipios['uf'] != '-3']['uf'].unique().tolist()
