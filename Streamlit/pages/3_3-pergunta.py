@@ -21,7 +21,7 @@ def main():
   st.markdown("## Qual a média dos valores das licitações ao longo do ano levando em cosideração os Estados ?")
   st.write("\n")
 
-  stateList = municipios['uf'].unique().tolist()
+  stateList = municipios[municipios['uf'] != '-3']['uf'].unique().tolist()
   orgaosList = orgaos['nome_orgao'].unique().tolist()
 
   
@@ -42,7 +42,6 @@ def main():
   
   # filtro por orgão
   if(len(orgao) > 0):
-    st.write(orgao)
     orgaoId = orgaos.loc[orgaos['nome_orgao'].isin(orgao)]['id'].values
     merged_df = merged_df.loc[merged_df['dim_orgao_id'].isin(orgaoId)]
 
