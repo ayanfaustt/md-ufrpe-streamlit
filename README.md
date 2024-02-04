@@ -4,5 +4,6 @@ Projeto da disciplina de Modelagem de Dados do período letivo de 2023.1
 
 
 ## Como rodar:
+ - Clone este repositório;
  - Instale todas as dependências listadas no arquivo `requirements.txt`;
- - execute o comando `streamlit run ./Streamlit/home.py`;
+ - Dentro da pasta do repositório clonado, execute o comando `streamlit run ./Streamlit/home.py`;
